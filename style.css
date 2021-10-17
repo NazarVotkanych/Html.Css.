@@ -1,0 +1,53 @@
+body {
+    border: 10px solid orange;
+    background: aqua;
+    margin: 0;
+}
+.target {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.target\.first {
+    text-align: center;
+}
+.target\.second {
+    border: 8px solid rebeccapurple;
+}
+.target\.third {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+.list {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+.list\.one {
+    text-align: center;
+}
+.list\.two {
+    border: 6px solid yellow;
+    padding: 20px;
+}
+.language {
+    width: 200px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.language\.one {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.language\.two {
+    border: 6px solid #0033ff;
+}
+.father {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+}
+
